@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <!-- Trees 
+ <!-- Trees -->
  <project path="device/realme/moon" name="mountain47/device_realme_moon.git" remote="github" revision="twelve" />
  <project path="vendor/realme" name="mountain47/android_vendor_realme_moon.git" remote="github" revision="twelve" />
  <project path="kernel/realme/moon" name="mountain47/kernel_realme_moon.git" remote="github" revision="12-rui2" />
  
--->
 </manifest>
