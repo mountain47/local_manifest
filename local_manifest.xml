@@ -3,12 +3,11 @@
   <manifest>  
   
     
-  
+  <!--
     <remote name="dev" fetch="https://github.com/mountain47" />  
-  
+  -->
     <remote name="mountain47" fetch="https://github.com/mountain47" />  
-  
-    <remote name="clang" fetch="https://gitlab.com/sanjeevstunner"/>  
+    
      <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" /> 
      <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" /> 
      <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="gitlab" revision="master" />
@@ -16,55 +15,36 @@
 
     
   
-   <!-- Common Device Tree 
+   <!-- Common Device Tree -->
   
-    <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="mountain47" revision="eleven"/>  
-   -->
+    <project path="device/motorola/sanders" name="android_device_motorola_sanders-common.tree" remote="mountain47" revision="cm-14.1"/>  
+   
          
   
    <!-- Device Tree -->  
   
-    <project path="device/realme/moon" name="device_realme_moon" remote="mountain47" revision="twelve"/>  
+    <project path="device/motorola/sanders" name="device_motorola_sanders" remote="mountain47" revision="eleven"/>  
   
     
   
    <!--Kernel -->  
   
-    <project path="kernel/realme/moon" name="kernel_realme_moon" remote="dev" revision="12-rui2"/>  
+    <project path="kernel/motorola/sanders" name="kernel_motorola_sanders" remote="mountain47" revision="11"/>  
   
-    
-  
-   <!-- Common Vendor Trees
-  
-    <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common" remote="dev" revision="lineage-20"/>  
-  -->
-    
   
    <!-- Vendor Trees -->  
   
-    <project path="vendor/realme/moon" name="android_vendor_realme_moon" remote="dev" revision="twelve"/>  
+    <project path="vendor/motorola/sanders" name="android_vendor_motorola_sanders" remote="mounatin47" revision="a11"/>  
   
     
   
-   <!--Hardware 
-  
-    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="dev" revision="lineage-20"/>  
-  -->
     
   
   
   
     
   
-   <!--MtkFMRadio 
-  
-    <project path="packages/apps/MtkFMRadio" name="android_packages_apps_MtkFMRadio" remote="dev" revision="lineage-20"/>  
-  -->
-      
-  
-   <!--Clang -->  
-  
-    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />  
+   
   
     
   
