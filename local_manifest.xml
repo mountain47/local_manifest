@@ -15,6 +15,28 @@
          <remote name="r450784d"
                 fetch="https://gitlab.com/rintokhan" />
 
+
+  
+   <!-- Device Tree -->  
+  
+    <project path="device/realme/moon" name="device_realme_moon_twelve-L" remote="mountain47" revision="twelve-L"/>  
+  
+    
+  
+   <!--Kernel -->  
+  
+    <project path="kernel/realme/moon" name="kernel_realme_moon" remote="mountain47" revision="12-rui2"/>  
+  
+  
+   <!-- Vendor Trees -->  
+  
+    <project path="vendor/realme/moon" name="android_vendor_realme_moon" remote="mounatin47" revision="twelve"/>  
+  
+    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="Rinto02" revision="arrow-13.0" />
+
+
+  
+    
 <!-- clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="Rinto02" revision="main" clone-depth="1" />
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="r450784d" revision="master" clone-depth="1" />
@@ -37,29 +59,7 @@
      <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" /> 
      <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" /> 
      <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="gitlab" revision="master" />
-     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="Rinto02" revision="arrow-13.0" />
-
-
-
-  
-   <!-- Device Tree -->  
-  
-    <project path="device/realme/moon" name="device_realme_moon_twelve-L" remote="mountain47" revision="twelve-L"/>  
-  
-    
-  
-   <!--Kernel -->  
-  
-    <project path="kernel/realme/moon" name="kernel_realme_moon" remote="mountain47" revision="12-rui2"/>  
-  
-  
-   <!-- Vendor Trees -->  
-  
-    <project path="vendor/realme/moon" name="android_vendor_realme_moon" remote="mounatin47" revision="twelve"/>  
-  
-    
-  
-    
+     
 
   
   
