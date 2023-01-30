@@ -12,6 +12,9 @@
 
          <remote name="mountain47"
                 fetch="https://github.com/mountain47" />
+ 
+        <remote name="Realme-G70-Series"
+                fetch="https://github.com/Realme-G70-Series" />
 
 
 
@@ -23,6 +26,8 @@
      <project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="mountain47" revision="aosp12" />
      <project path="kernel/realme/moon" name="kernel_realme_moon" remote="mountain47" revision="12-rui2" />
      <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="Rinto02" revision="arrow-13.0" />
+     <project path="packages/apps/RealmeDirac" name="android_packages_apps_RealmeDirac" remote="Realme-G70-Series" revision="master" clone-depth="1" />
+
         
       <!-- clang -->
 
