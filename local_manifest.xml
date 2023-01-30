@@ -3,14 +3,14 @@
   <manifest>  
   
     
-  <!--
-    <remote name="dev" fetch="https://github.com/mountain47" />  
-  -->
-    <remote name="mountain47" fetch="https://github.com/mountain47" />  
-    <!-- fetching sources -->      
+ 
+        <!-- fetching sources -->      
 
         <remote name="Rinto02"
                 fetch="https://github.com/rinto02" />
+        <remote name="mountain47" fetch="https://github.com/mountain47" />  
+
+
 
          <remote name="r450784d"
                 fetch="https://gitlab.com/rintokhan" />
@@ -19,25 +19,12 @@
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="Rinto02" revision="main" clone-depth="1" />
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="r450784d" revision="master" clone-depth="1" />
 
-<!-- Replacement -->
-
-        <remove-project name="android_frameworks_base" />
-        <project path="frameworks/base" name="stag_frameworks_base" remote="Rinto02" revision="t13" />
-
-        <remove-project name="android_frameworks_native" />
-        <project path="frameworks/native name="stag_frameworks_native" remote="Rinto02" revision="t13" />
-        
-        <remove-project name="android_frameworks_av" />
-        <project path="frameworks/av" name="stag_frameworks_av" remote="Rinto02" revision="t13" />
 
 
 
 
 
-     <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" /> 
-     <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" /> 
-     <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="gitlab" revision="master" />
-     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="Rinto02" revision="arrow-13.0" />
+         <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="Rinto02" revision="arrow-13.0" />
 
 
 
