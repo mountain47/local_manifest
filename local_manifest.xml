@@ -9,42 +9,37 @@
         <remote name="Rinto02"
                 fetch="https://github.com/rinto02" />
         <remote name="mountain47" fetch="https://github.com/mountain47" />  
-
-
-
          <remote name="r450784d"
                 fetch="https://gitlab.com/rintokhan" />
 
-<!-- clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="Rinto02" revision="main" clone-depth="1" />
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="r450784d" revision="master" clone-depth="1" />
 
 
-
-
-
-
-         <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="Rinto02" revision="arrow-13.0" />
-
+         
 
 
   
    <!-- Device Tree -->  
   
     <project path="device/realme/moon" name="device_realme_moon_twelve-L" remote="mountain47" revision="twelve-L"/>  
-  
-    
+    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="Rinto02" revision="arrow-13.0" />
+
   
    <!--Kernel -->  
   
     <project path="kernel/realme/moon" name="kernel_realme_moon" remote="mountain47" revision="12-rui2"/>  
   
-  
    <!-- Vendor Trees -->  
   
     <project path="vendor/realme/moon" name="android_vendor_realme_moon" remote="mounatin47" revision="twelve"/>  
   
-    
+   <!-- clang -->
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="Rinto02" revision="main" clone-depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="r450784d" revision="master" clone-depth="1" />
+
+
+
+
+ 
   
     
   
