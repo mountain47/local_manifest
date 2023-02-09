@@ -29,5 +29,10 @@
      <project path="packages/apps/RealmeDirac" name="android_packages_apps_RealmeDirac" remote="Realme-G70-Series" revision="master" clone-depth="1" />
 
         
+      <!-- clang -->
+
+      <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="Rinto02" revision="main" clone-depth="1" />
+      <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="r450784d" revision="master" clone-depth="1" />
+ 
     
 </manifest>
